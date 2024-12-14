@@ -5,459 +5,6 @@
 	(uuid "0e086368-df4c-4139-a634-f31f7cd00dd9")
 	(paper "A4")
 	(lib_symbols
-		(symbol "BQ25628E:BQ25628ERYKR"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 22.86 10.16 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "BQ25628ERYKR"
-				(at 22.86 7.62 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "WQFN-HR18__RYK_TEX"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "BQ25628ERYKR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "BQ25628ERYKR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "WQFN-HR18__RYK_TEX"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BQ25628ERYKR_0_1"
-				(polyline
-					(pts
-						(xy 7.62 -25.4) (xy 38.1 -25.4)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 7.62 -25.4)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 38.1 -25.4) (xy 38.1 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 38.1 5.08) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 7.62)
-					(name "BTST"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 45.72 -20.32 180)
-					(length 7.62)
-					(name "STAT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 45.72 -17.78 180)
-					(length 7.62)
-					(name "*INT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 45.72 -15.24 180)
-					(length 7.62)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 45.72 -12.7 180)
-					(length 7.62)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 45.72 -10.16 180)
-					(length 7.62)
-					(name "*CE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 45.72 -7.62 180)
-					(length 7.62)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 45.72 -5.08 180)
-					(length 7.62)
-					(name "SW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 45.72 -2.54 180)
-					(length 7.62)
-					(name "PMID"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 45.72 0 180)
-					(length 7.62)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -2.54 0)
-					(length 7.62)
-					(name "REGN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -5.08 0)
-					(length 7.62)
-					(name "*PG"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 0 -7.62 0)
-					(length 7.62)
-					(name "ILIM"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -10.16 0)
-					(length 7.62)
-					(name "TS_BIAS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -12.7 0)
-					(length 7.62)
-					(name "TS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -15.24 0)
-					(length 7.62)
-					(name "*QON"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -17.78 0)
-					(length 7.62)
-					(name "BAT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -20.32 0)
-					(length 7.62)
-					(name "SYS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "ESP32_mini:mini_esp32"
 			(pin_names
 				(offset 1.016)
@@ -1254,558 +801,10 @@
 				)
 			)
 		)
-		(symbol "Regulator_Switching:TLV61070ADBV"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -7.62 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "TLV61070ADBV"
-				(at 0 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-				(at 1.27 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv61070a.pdf"
-				(at 0 12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Boost Converter, 2.5A switch current limit, 2.2-5.5V Output Voltage, 0.5-5.5V Input Voltage, SOT-23-6"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Boost adjustable converter"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TLV61070ADBV_0_1"
-				(rectangle
-					(start -7.62 7.62)
-					(end 7.62 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "TLV61070ADBV_1_1"
-				(pin input line
-					(at 10.16 5.08 180)
-					(length 2.54)
-					(name "SW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "V_{FB}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "V_{OUT}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -10.16 5.08 0)
-					(length 2.54)
-					(name "V_{IN}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "TLV61048:TLV61048DBVR"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 20.32 10.16 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "TLV61048DBVR"
-				(at 20.32 7.62 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "SOT-23-6_DBV_TEX"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "TLV61048DBVR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "TLV61048DBVR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT-23-6_DBV_TEX SOT-23-6_DBV_TEX-M SOT-23-6_DBV_TEX-L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TLV61048DBVR_0_1"
-				(polyline
-					(pts
-						(xy 7.62 -10.16) (xy 33.02 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 7.62 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 33.02 -10.16) (xy 33.02 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 33.02 5.08) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 7.62)
-					(name "SW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 0 -2.54 0)
-					(length 7.62)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -5.08 0)
-					(length 7.62)
-					(name "FB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 40.64 -5.08 180)
-					(length 7.62)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 40.64 -2.54 180)
-					(length 7.62)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 40.64 0 180)
-					(length 7.62)
-					(name "FREQ"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BQ25628E:BQ25628ERYKR")
-		(at 166.37 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "41e370f9-37ce-4722-9390-91020fb63104")
-		(property "Reference" "U2"
-			(at 189.23 68.58 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "BQ25628ERYKR"
-			(at 189.23 71.12 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "WQFN-HR18__RYK_TEX"
-			(at 166.37 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "BQ25628ERYKR"
-			(at 166.37 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 166.37 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "251c5b6a-2c10-4864-b72a-fda85bc924ab")
-		)
-		(pin "1"
-			(uuid "fdedd21a-26bf-4cdd-9474-1146076e070a")
-		)
-		(pin "2"
-			(uuid "095ca4eb-c4c3-4ab4-8031-f0b748d68854")
-		)
-		(pin "3"
-			(uuid "4581856a-b7b3-442a-ac0c-8ca16ed6f900")
-		)
-		(pin "9"
-			(uuid "a2b5761b-7180-476e-95ab-d7510b365c78")
-		)
-		(pin "17"
-			(uuid "adbdd703-25e5-4cc8-aba4-f910fed5fc58")
-		)
-		(pin "16"
-			(uuid "3e67f7bf-05af-4b37-876e-0f396e7ca041")
-		)
-		(pin "11"
-			(uuid "f57ab91d-03d0-4733-826d-3cc27ff8b4e2")
-		)
-		(pin "4"
-			(uuid "de58e69a-da54-4e45-a533-ef8bf23ceefd")
-		)
-		(pin "6"
-			(uuid "b2442bf6-9156-4b08-8c29-eb18553a64cd")
-		)
-		(pin "10"
-			(uuid "ee8be2ec-0b21-4e0e-8ac9-78bb77f538d6")
-		)
-		(pin "5"
-			(uuid "ec0a1660-d661-41f8-b13d-276ae3454502")
-		)
-		(pin "15"
-			(uuid "6dfc8cd5-d2f0-4d64-8dd3-b2d784e3ea17")
-		)
-		(pin "13"
-			(uuid "0a70d212-049d-4f53-bab1-41ee9e4b6e9c")
-		)
-		(pin "18"
-			(uuid "ac4359c8-6b71-4b8a-a764-e5d23bc5ac74")
-		)
-		(pin "12"
-			(uuid "85dc1ae1-4c2f-4e0b-9fe2-4e604ab4e0c0")
-		)
-		(pin "14"
-			(uuid "8b6c1418-7532-4fc8-a31f-09dc3a3f2391")
-		)
-		(pin "7"
-			(uuid "f49087dc-3fd8-48d5-89a6-02b3831ccc8a")
-		)
-		(instances
-			(project ""
-				(path "/0e086368-df4c-4139-a634-f31f7cd00dd9"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "ESP32_mini:mini_esp32")
-		(at 134.62 71.12 0)
+		(at 91.44 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1814,7 +813,7 @@
 		(fields_autoplaced yes)
 		(uuid "903d5439-dd90-4477-9200-9eb981a23e8b")
 		(property "Reference" "U1"
-			(at 135.255 67.31 0)
+			(at 92.075 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1822,7 +821,7 @@
 			)
 		)
 		(property "Value" "mini_esp32"
-			(at 135.255 69.85 0)
+			(at 92.075 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1830,7 +829,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 68.58 0)
+			(at 95.25 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1839,7 +838,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 68.58 0)
+			(at 95.25 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1848,7 +847,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 134.62 71.12 0)
+			(at 91.44 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1985,166 +984,70 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "TLV61048:TLV61048DBVR")
-		(at 215.9 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+	(sheet
+		(at 31.75 27.94)
+		(size 53.34 34.29)
 		(fields_autoplaced yes)
-		(uuid "cbfc53ab-232c-41b6-9be3-4b3933435ab0")
-		(property "Reference" "U4"
-			(at 236.22 105.41 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
+		(stroke
+			(width 0.1524)
+			(type solid)
 		)
-		(property "Value" "TLV61048DBVR"
-			(at 236.22 107.95 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
+		(fill
+			(color 0 0 0 0.0000)
 		)
-		(property "Footprint" "SOT-23-6_DBV_TEX"
-			(at 215.9 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "TLV61048DBVR"
-			(at 215.9 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 215.9 115.57 0)
+		(uuid "240a0812-dede-4263-96c8-2958c75a38f0")
+		(property "Sheetname" "Alimentació"
+			(at 31.75 27.2284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left bottom)
 			)
 		)
-		(pin "1"
-			(uuid "9f387dfd-33f1-406c-8a64-ae9c8db92ae4")
+		(property "Sheetfile" "Alimentació.kicad_sch"
+			(at 31.75 62.8146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
 		)
-		(pin "6"
-			(uuid "7188f5fa-11aa-4e59-b119-f4c7bba52bac")
+		(pin "{slash}INT" output
+			(at 85.09 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "738758f7-ece4-4ebc-b9e5-ba486e4ef7e5")
 		)
-		(pin "4"
-			(uuid "80317e8d-c187-4b83-9b15-d4f545b8566a")
+		(pin "SDA" bidirectional
+			(at 85.09 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9d969a33-3e62-4b7e-9d2e-a458083b0603")
 		)
-		(pin "5"
-			(uuid "b8b640ff-01f7-4b8a-a9ef-59a981612ce3")
-		)
-		(pin "3"
-			(uuid "4e6ab710-c908-4c99-807e-052a66889348")
-		)
-		(pin "2"
-			(uuid "1b2e931f-1f61-4dfe-a820-30254f9baaa5")
+		(pin "SCL" input
+			(at 85.09 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "41651dd3-36fe-4853-9f32-a193c1e7721a")
 		)
 		(instances
-			(project ""
+			(project "SIMAs"
 				(path "/0e086368-df4c-4139-a634-f31f7cd00dd9"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Switching:TLV61070ADBV")
-		(at 204.47 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f08c3b40-9ac4-44aa-be7e-88f9b7a62825")
-		(property "Reference" "U3"
-			(at 204.47 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TLV61070ADBV"
-			(at 204.47 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 205.74 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv61070a.pdf"
-			(at 204.47 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Boost Converter, 2.5A switch current limit, 2.2-5.5V Output Voltage, 0.5-5.5V Input Voltage, SOT-23-6"
-			(at 204.47 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "f3f3bab5-e506-40f0-a956-1586bbe61d89")
-		)
-		(pin "1"
-			(uuid "09415b63-2ffd-4597-8412-11396c0f1799")
-		)
-		(pin "4"
-			(uuid "77333019-5451-4c8c-a552-1293894e1477")
-		)
-		(pin "3"
-			(uuid "2605ccc1-4c71-43fb-82d0-23693ca84ddf")
-		)
-		(pin "2"
-			(uuid "4526fbd4-2e6e-4439-97bf-cb644b835a64")
-		)
-		(pin "5"
-			(uuid "1f413c06-b42e-44b3-9633-35a8c17ca763")
-		)
-		(instances
-			(project ""
-				(path "/0e086368-df4c-4139-a634-f31f7cd00dd9"
-					(reference "U3")
-					(unit 1)
+					(page "2")
 				)
 			)
 		)
