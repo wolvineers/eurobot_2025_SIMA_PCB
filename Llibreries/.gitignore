@@ -1,0 +1,4 @@
+# Exclude all directories and files for now, except the readme and gitignore
+*
+!README.md
+!.gitignore
