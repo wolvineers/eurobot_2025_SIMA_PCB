@@ -3,4 +3,5 @@
   (lib (name "ESP32_mini")(type "Legacy")(uri "${KIPRJMOD}/Llibreries/ESP32_mini_KiCad_Library-master/ESP32_mini.lib")(options "")(descr ""))
   (lib (name "BQ25628E")(type "KiCad")(uri "${KIPRJMOD}/Llibreries/ul_BQ25628ERYKR/KiCADv6/2024-12-07_12-37-25.kicad_sym")(options "")(descr ""))
   (lib (name "TLV61048")(type "KiCad")(uri "${KIPRJMOD}/Llibreries/ul_TLV61048DBVR/2024-12-07_12-52-46.kicad_sym")(options "")(descr ""))
+  (lib (name "DRV8876")(type "KiCad")(uri "${KIPRJMOD}/Llibreries/ul_DRV8876PWPR/KiCADv6/2025-01-11_12-37-48.kicad_sym")(options "")(descr ""))
 )
