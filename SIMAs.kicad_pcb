@@ -2456,7 +2456,7 @@
 	(footprint "BQ25628E:WQFN-HR18__RYK_TEX"
 		(layer "F.Cu")
 		(uuid "1994af63-8934-4679-959c-796233d1f5b4")
-		(at 100.925001 20.45)
+		(at 96.624999 26.85)
 		(tags "BQ25628ERYKR ")
 		(property "Reference" "U2"
 			(at 0 0 0)
@@ -23410,7 +23410,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "e8f1020f-c1a7-483b-8637-1cc168869f9b")
-		(at 86.515002 43.035001)
+		(at 86.1375 43.035001)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C4"
