@@ -3736,7 +3736,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PWP0016J_N"
+		(property "Footprint" "dvr8876pwpr:PWP0016J_N"
 			(at 92.71 57.15 0)
 			(effects
 				(font
@@ -4127,7 +4127,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BQ25628E:WQFN-HR18__RYK_TEX"
+		(property "Footprint" "dvr8876pwpr:PWP0016J_N"
 			(at 95.25 144.78 0)
 			(effects
 				(font
