@@ -1,0 +1,2 @@
+# No ignoris els csv d'aquí, serveixen per producció
+!*.csv
