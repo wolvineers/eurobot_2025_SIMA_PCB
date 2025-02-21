@@ -4290,7 +4290,6 @@
 	)
 	(label "nFAULT"
 		(at 22.86 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4301,7 +4300,6 @@
 	)
 	(label "VSys"
 		(at 86.36 45.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4312,7 +4310,6 @@
 	)
 	(label "EN{slash}IN4"
 		(at 80.01 114.3 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4323,7 +4320,6 @@
 	)
 	(label "ENC4"
 		(at 80.01 167.64 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4334,7 +4330,6 @@
 	)
 	(label "LINIA3"
 		(at 186.69 154.94 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4345,7 +4340,6 @@
 	)
 	(label "EN{slash}IN1"
 		(at 80.01 106.68 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4356,7 +4350,6 @@
 	)
 	(label "nSLEEP"
 		(at 93.98 72.39 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4367,7 +4360,6 @@
 	)
 	(label "LINIA2"
 		(at 186.69 152.4 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4378,7 +4370,6 @@
 	)
 	(label "PH{slash}IN2"
 		(at 93.98 68.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4389,7 +4380,6 @@
 	)
 	(label "EXT_GPIO"
 		(at 240.03 152.4 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4400,7 +4390,6 @@
 	)
 	(label "nSLEEP"
 		(at 80.01 139.7 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4411,7 +4400,6 @@
 	)
 	(label "PH{slash}IN2"
 		(at 80.01 109.22 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4422,7 +4410,6 @@
 	)
 	(label "ENC2"
 		(at 186.69 78.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4433,7 +4420,6 @@
 	)
 	(label "VSys"
 		(at 240.03 123.19 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4444,7 +4430,6 @@
 	)
 	(label "SONS1"
 		(at 184.15 121.92 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4455,7 +4440,6 @@
 	)
 	(label "ENC1"
 		(at 80.01 160.02 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4466,7 +4450,6 @@
 	)
 	(label "FIDECURSA"
 		(at 237.49 97.79 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4477,7 +4460,6 @@
 	)
 	(label "SONS1"
 		(at 80.01 124.46 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4488,7 +4470,6 @@
 	)
 	(label "IPROPI2"
 		(at 22.86 80.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4499,7 +4480,6 @@
 	)
 	(label "IPROPI1"
 		(at 93.98 80.01 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4510,7 +4490,6 @@
 	)
 	(label "EN{slash}IN3"
 		(at 80.01 111.76 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4521,7 +4500,6 @@
 	)
 	(label "ENC3"
 		(at 80.01 165.1 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4532,7 +4510,6 @@
 	)
 	(label "ENC1"
 		(at 186.69 76.2 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4543,7 +4520,6 @@
 	)
 	(label "LINIA3"
 		(at 80.01 149.86 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4554,7 +4530,6 @@
 	)
 	(label "nFAULT"
 		(at 80.01 142.24 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4565,7 +4540,6 @@
 	)
 	(label "SONS2"
 		(at 184.15 124.46 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4576,7 +4550,6 @@
 	)
 	(label "EN{slash}IN1"
 		(at 93.98 64.77 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4587,7 +4560,6 @@
 	)
 	(label "LEDs"
 		(at 80.01 129.54 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4598,7 +4570,6 @@
 	)
 	(label "SONS2"
 		(at 80.01 127 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4609,7 +4580,6 @@
 	)
 	(label "SERVO"
 		(at 80.01 121.92 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4620,7 +4590,6 @@
 	)
 	(label "EXT_GPIO"
 		(at 80.01 134.62 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4631,7 +4600,6 @@
 	)
 	(label "FIDECURSA"
 		(at 80.01 137.16 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4642,7 +4610,6 @@
 	)
 	(label "LINIA1"
 		(at 186.69 149.86 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4653,7 +4620,6 @@
 	)
 	(label "ENC2"
 		(at 80.01 162.56 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4664,7 +4630,6 @@
 	)
 	(label "LINIA1"
 		(at 80.01 144.78 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4675,7 +4640,6 @@
 	)
 	(label "nFAULT"
 		(at 93.98 76.2 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4686,7 +4650,6 @@
 	)
 	(label "ENC3"
 		(at 186.69 91.44 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4697,7 +4660,6 @@
 	)
 	(label "nSLEEP"
 		(at 22.86 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4708,7 +4670,6 @@
 	)
 	(label "LEDs"
 		(at 208.28 44.45 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4719,7 +4680,6 @@
 	)
 	(label "ENC4"
 		(at 186.69 93.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4730,7 +4690,6 @@
 	)
 	(label "EN{slash}IN3"
 		(at 22.86 64.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4741,7 +4700,6 @@
 	)
 	(label "EN{slash}IN4"
 		(at 22.86 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4752,7 +4710,6 @@
 	)
 	(label "LINIA2"
 		(at 80.01 147.32 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4763,7 +4720,6 @@
 	)
 	(label "SERVO"
 		(at 238.76 76.2 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4883,7 +4839,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5 V"
+		(property "Value" "DESD5V0S1BA-7"
 			(at 160.02 45.7199 90)
 			(effects
 				(font
@@ -5509,7 +5465,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "M7"
 			(at 220.98 33.0199 90)
 			(effects
 				(font
@@ -5872,7 +5828,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3,3 V"
+		(property "Value" "SD03C-7"
 			(at 168.91 45.7199 90)
 			(effects
 				(font

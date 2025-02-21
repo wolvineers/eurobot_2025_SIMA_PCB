@@ -5519,7 +5519,6 @@
 	)
 	(label "VSYS"
 		(at 198.12 59.69 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5530,7 +5529,6 @@
 	)
 	(label "VSYS"
 		(at 156.21 140.97 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5541,7 +5539,6 @@
 	)
 	(label "VSYS"
 		(at 121.92 173.99 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5552,7 +5549,6 @@
 	)
 	(label "BTST"
 		(at 140.97 152.4 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5563,7 +5559,6 @@
 	)
 	(label "VSYS"
 		(at 67.31 156.21 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5574,7 +5569,6 @@
 	)
 	(label "VSYS"
 		(at 35.56 160.02 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5585,7 +5579,6 @@
 	)
 	(label "BTST"
 		(at 67.31 135.89 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5596,7 +5589,6 @@
 	)
 	(label "VSYS"
 		(at 26.67 50.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5652,7 +5644,6 @@
 	(hierarchical_label "SCL"
 		(shape input)
 		(at 116.84 148.59 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5664,7 +5655,6 @@
 	(hierarchical_label "VSys"
 		(shape output)
 		(at 67.31 160.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5676,7 +5666,6 @@
 	(hierarchical_label "SDA"
 		(shape bidirectional)
 		(at 116.84 151.13 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5688,7 +5677,6 @@
 	(hierarchical_label "{slash}INT"
 		(shape output)
 		(at 116.84 153.67 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6503,7 +6491,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12 V"
+		(property "Value" "SD12-7"
 			(at 191.77 43.1799 90)
 			(effects
 				(font
@@ -7066,7 +7054,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5 V"
+		(property "Value" "DESD5V0S1BA-7"
 			(at 278.13 68.5799 90)
 			(effects
 				(font
@@ -7556,7 +7544,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20 u"
+		(property "Value" "22 u"
 			(at 156.21 149.8599 0)
 			(effects
 				(font
@@ -7626,7 +7614,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100 u"
+		(property "Value" "22 u"
 			(at 33.02 82.5499 0)
 			(effects
 				(font
@@ -9138,7 +9126,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Bateria"
+		(property "Value" "XT-30 male"
 			(at 68.58 175.2601 0)
 			(effects
 				(font
@@ -9546,7 +9534,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5 V"
+		(property "Value" "DESD5V0S1BA-7"
 			(at 248.92 120.6499 90)
 			(effects
 				(font
