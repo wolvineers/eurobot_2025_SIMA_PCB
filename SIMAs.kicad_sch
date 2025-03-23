@@ -5,166 +5,6 @@
 	(uuid "0e086368-df4c-4139-a634-f31f7cd00dd9")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Conn_01x02_Pin"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02_Pin"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_Pin_1_1"
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector:Conn_01x03_Pin"
 			(pin_names
 				(offset 1.016) hide)
@@ -3311,16 +3151,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 125.73) (xy 242.57 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40c9964b-5fce-4fed-86c5-cab61871e11d")
-	)
-	(wire
-		(pts
 			(xy 80.01 167.64) (xy 83.82 167.64)
 		)
 		(stroke
@@ -3661,6 +3491,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 152.4) (xy 83.82 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d9fb806-f028-4fc8-9090-110e6537c466")
+	)
+	(wire
+		(pts
 			(xy 80.01 142.24) (xy 83.82 142.24)
 		)
 		(stroke
@@ -3708,16 +3548,6 @@
 			(type default)
 		)
 		(uuid "7fd40261-b788-4170-9838-8c899ffcb616")
-	)
-	(wire
-		(pts
-			(xy 240.03 123.19) (xy 242.57 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81022ff3-5d57-44bc-9863-37ebb69c8856")
 	)
 	(wire
 		(pts
@@ -4248,16 +4078,6 @@
 		)
 		(uuid "9f5e6511-0812-4397-8d78-48d8c1447669")
 	)
-	(text "EMERGENCY BUTTON NC"
-		(exclude_from_sim no)
-		(at 253.238 118.618 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "1028d064-cbad-4517-aae6-e367a08c76f6")
-	)
 	(text "GPIO"
 		(exclude_from_sim no)
 		(at 250.698 146.558 0)
@@ -4417,16 +4237,6 @@
 			(justify right bottom)
 		)
 		(uuid "4ecb27d2-b14c-4774-96bf-568320119e75")
-	)
-	(label "VSys"
-		(at 240.03 123.19 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "55cdddfa-2ef0-4722-b3d3-92dcf0fd4879")
 	)
 	(label "SONS1"
 		(at 184.15 121.92 180)
@@ -4728,9 +4538,9 @@
 		)
 		(uuid "f4b2ca5c-1656-4478-b8d0-6f5b7e0729b5")
 	)
-	(global_label "EM_BTN"
-		(shape output)
-		(at 240.03 125.73 180)
+	(global_label "SENSE_ALM"
+		(shape input)
+		(at 82.55 152.4 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4738,9 +4548,9 @@
 			)
 			(justify right)
 		)
-		(uuid "ba85a376-e5ca-4799-8e4a-7a99886c19b0")
+		(uuid "a81e4a71-ead1-47f1-aab9-8e8de7dd51f0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.9087 125.73 0)
+			(at 68.9816 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6740,76 +6550,6 @@
 			(project "SIMAs"
 				(path "/0e086368-df4c-4139-a634-f31f7cd00dd9"
 					(reference "R30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 247.65 125.73 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a10f91e0-5898-401d-9e4f-4d13a5188f2e")
-		(property "Reference" "J10"
-			(at 248.92 123.1899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 248.92 125.7299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
-			(at 247.65 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 247.65 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 247.65 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "388d4514-4cda-49ed-ab8a-443df24a06f9")
-		)
-		(pin "2"
-			(uuid "d2754a0e-6f04-4b77-88ef-05c306dcdc76")
-		)
-		(instances
-			(project ""
-				(path "/0e086368-df4c-4139-a634-f31f7cd00dd9"
-					(reference "J10")
 					(unit 1)
 				)
 			)

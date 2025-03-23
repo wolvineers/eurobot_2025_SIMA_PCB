@@ -9,4 +9,6 @@
   (lib (name "USBC_6_DEALON")(type "KiCad")(uri "${KIPRJMOD}/Llibreries/USBC_6_DEALON/USBC_6_DEALON.pretty")(options "")(descr ""))
   (lib (name "dvr8876pwpr")(type "KiCad")(uri "C:/Users/PT-Usuari/Documents/KiCad/SIMAs/Llibreries/ul_DRV8876PWPR/footprints.pretty")(options "")(descr ""))
   (lib (name "tps611781rnwr")(type "KiCad")(uri "C:/Users/PT-Usuari/Documents/KiCad/SIMAs/Llibreries/ul_TPS611781RNWR/footprints.pretty")(options "")(descr ""))
+  (lib (name "TPS563300")(type "KiCad")(uri "${KIPRJMOD}/Llibreries/ul_TPS563300DRLR/footprints.pretty")(options "")(descr ""))
+  (lib (name "HM72L-06306R8LFTR")(type "KiCad")(uri "${KIPRJMOD}/Llibreries/HM72L-06306R8LFTR")(options "")(descr ""))
 )
